@@ -61,6 +61,7 @@ export default function App() {
   return (
     <>
       <div>
+        <div><p>'https://github.com/fmackercher/si579-problem-set-6'</p></div>
         <h1>Rhyme Finder</h1>
         <div className="saved-words">{upperDiv}{savedWords}</div>
         <input className="form-control" type="text" onChange={e => setSearch(e.target.value)} placeholder="enter a word" />
